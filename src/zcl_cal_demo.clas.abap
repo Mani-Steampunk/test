@@ -32,7 +32,7 @@ CLASS zcl_cal_demo IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD subtract.
-    result = operand1 - operand2.
+    result = ABS( operand1 - operand2 ).
   ENDMETHOD.
 
 ENDCLASS.
